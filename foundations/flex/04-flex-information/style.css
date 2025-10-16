@@ -25,25 +25,20 @@ img {
   background: #eee;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  text-align: center;
 }
 
-.top {
+.title {
   margin-bottom: 32px;
 }
 
-.bottom {
+.container {
   display: flex;
+  justify-content: center;
   gap: 52px;
 }
 
 .info {
-  flex-basis: 200px;
-}
-
-body {
-  text-align: center;
+  max-width: 200px;
 }
